@@ -16,18 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::post('/login', 'AuthController@login');
 Route::post('/register', 'AuthController@register');
 
+Route::get('/user', 'UserController@user');
+Route::get('/users', 'UserController@list');
+Route::get('/users/{id}', 'UserController@find');
+Route::post('/users', 'UserController@create');
+Route::put('/users/{id}', 'UserController@update');
+Route::delete('/users/{id}', 'UserController@delete');
 
+Route::apiResource('/podcast', 'PodcastController');
+Route::post('/upload', 'ArtworkController@upload');
 
-Route::group(['middleware' => 'auth:api'], function() {
-    Route::get('/user', 'UserController@user');
-    Route::get('/users', 'UserController@list');
-    Route::get('/users/{id}', 'UserController@find');
-    Route::post('/users', 'UserController@create');
-    Route::put('/users/{id}', 'UserController@update');
-    Route::delete('/users/{id}', 'UserController@delete');
-
-    Route::apiResource('/podcast', 'PodcastController');
-    Route::post('/upload', 'ArtworkController@upload');
-});
+//Route::group(['middleware' => 'auth:api'], function() {
+//});
 
 
