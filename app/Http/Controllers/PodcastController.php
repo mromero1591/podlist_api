@@ -7,6 +7,7 @@ use App\Http\Resources\PodcastResource;
 use App\Podcast;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\Response;
@@ -15,9 +16,7 @@ class PodcastController extends Controller
 {
     public function index()
     {
-        return Podcast::paginate();
-
-
+        return Podcast::all();
     }
 
     public function show($id) {
@@ -32,7 +31,7 @@ class PodcastController extends Controller
 
     public  function  update(Request $request, $id) {
         $podcast = Podcast::find($id);
-         Podcast::update($request->only('title', 'description', 'artwork'));
+         $podcast->update($request->only('title', 'description', 'artwork'));
 
          return \response($podcast, Response::HTTP_ACCEPTED);
 
