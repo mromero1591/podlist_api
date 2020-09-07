@@ -24,7 +24,9 @@ Route::put('/users/{id}', 'UserController@update');
 Route::delete('/users/{id}', 'UserController@delete');
 
 Route::apiResource('/podcast', 'PodcastController');
-Route::post('/upload', 'ArtworkController@upload');
+Route::get('/podcast/favorite/{id}', 'FavoritePodcastController@getFavoritePodcast');
+Route::post('/podcast/favorite', 'FavoritePodcastController@create');
+Route::post('/podcast/favorite/remove', 'FavoritePodcastController@remove');
 
 //Route::group(['middleware' => 'auth:api'], function() {
 //});

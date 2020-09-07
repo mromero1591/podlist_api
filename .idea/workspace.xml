@@ -174,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599351575558</updated>
       <workItem from="1599351577160" duration="3681000" />
-      <workItem from="1599360573294" duration="18584000" />
+      <workItem from="1599360573294" duration="23166000" />
     </task>
     <servers />
   </component>
@@ -182,10 +182,11 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="634" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599371883399">
-      <screen x="0" y="23" width="1792" height="1020" />
+    <state x="634" y="296" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599461624080">
+      <screen x="0" y="23" width="1792" height="1024" />
     </state>
     <state x="634" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1020@0.23.1792.1020" timestamp="1599371883399" />
+    <state x="634" y="296" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1599461624080" />
     <state width="1750" height="278" key="GridCell.Tab.0.bottom" timestamp="1599360628957">
       <screen x="0" y="23" width="1792" height="1020" />
     </state>
@@ -210,11 +211,11 @@
       <screen x="0" y="23" width="1792" height="1022" />
     </state>
     <state x="561" y="246" key="run.anything.popup/0.23.1792.1022@0.23.1792.1022" timestamp="1599435091876" />
-    <state x="561" y="249" width="670" height="678" key="search.everywhere.popup" timestamp="1599457339904">
+    <state x="561" y="249" width="670" height="678" key="search.everywhere.popup" timestamp="1599468271055">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
     <state x="561" y="249" width="670" height="675" key="search.everywhere.popup/0.23.1792.1020@0.23.1792.1020" timestamp="1599374415138" />
     <state x="561" y="249" width="670" height="676" key="search.everywhere.popup/0.23.1792.1022@0.23.1792.1022" timestamp="1599435143625" />
-    <state x="561" y="249" width="670" height="678" key="search.everywhere.popup/0.23.1792.1024@0.23.1792.1024" timestamp="1599457339904" />
+    <state x="561" y="249" width="670" height="678" key="search.everywhere.popup/0.23.1792.1024@0.23.1792.1024" timestamp="1599468271055" />
   </component>
 </project>
